@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "courseName": "Computer Science",
+      "duration": "4 years",
+      "fees": 120000,
+      "category": "Undergraduate"
+    },
+    {
+      "id": 2,
+      "courseName": "Business Administration",
+      "duration": "3 years",
+      "fees": 100000,
+      "category": "Undergraduate"
+    },
+    {
+      "id": 3,
+      "courseName": "Data Science",
+      "duration": "2 years",
+      "fees": 150000,
+      "category": "Postgraduate"
+    },
+    {
+      "id": 4,
+      "courseName": "Mechanical Engineering",
+      "duration": "4 years",
+      "fees": 130000,
+      "category": "Undergraduate"
+    },
+    {
+      "id": 5,
+      "courseName": "Artificial Intelligence",
+      "duration": "2 years",
+      "fees": 160000,
+      "category": "Postgraduate"
+    },
+    {
+      "id": 6,
+      "courseName": "Civil Engineering",
+      "duration": "4 years",
+      "fees": 125000,
+      "category": "Undergraduate"
+    }
+  ]
+  

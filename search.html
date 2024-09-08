@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Course</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="admission.html">Admission Form</a></li>
+      <li><a href="search.html">Search Course</a></li>
+      <li><a href="signup.html">Sign Up</a></li>
+    </ul>
+  </nav>
+
+  <!-- Search Course Page -->
+  <div class="container">
+    <h2>Search and Sort Courses</h2>
+    
+    <!-- Filter input -->
+    <input type="text" id="filter" placeholder="Search by course name">
+    
+    <!-- Sort options -->
+    <label for="sort">Sort by:</label>
+    <select id="sort">
+      <option value="name">Name (A-Z)</option>
+      <option value="feesAsc">Fees (Low to High)</option>
+      <option value="feesDesc">Fees (High to Low)</option>
+      <option value="durationAsc">Duration (Short to Long)</option>
+      <option value="durationDesc">Duration (Long to Short)</option>
+    </select>
+
+    <!-- Course List -->
+    <div id="courseList"></div>
+
+    <!-- Pagination Controls -->
+    <div id="pagination"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
